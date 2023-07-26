@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(128, 114, 119);
+    
+    
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 62px;
+    border: 1px solid #141414;
+    border-radius: 5px;
+    background-color: #d163d1;
+  }
+  
+  label, input {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
